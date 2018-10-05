@@ -1,0 +1,147 @@
+
+#sidebar
+{
+	width:25%;
+	background-color: green;
+	position: fixed;
+	color: white;
+	left: 0;
+	
+	
+	text-align: center;
+	height: 100vh;
+}
+#username
+{
+	position: fixed;
+	left: 26%;
+	
+}
+#displaymsg
+{
+	position: fixed;
+	left:31%;
+	word-break:break-all;
+	padding-right: 2px;
+	height:75%; 
+	overflow-y: auto;
+
+}
+#entrypage
+{
+	text-align: center;
+	
+	color: white;
+	position: fixed;
+	top: 50%;
+	left: 25%;
+	border:2px solid grey;
+	padding: 20px;
+}
+#userlogin
+{
+	border:1px solid  black;
+}
+
+#enter,#send,#sendlocation
+{
+	
+	font-weight: bold;
+	color: white;
+	
+	font-style: italic;
+	background-color: green;
+	height: 3.2%;
+	
+};
+#enter
+{
+	width: 50%;
+}
+#typemsg
+{
+	position: sticky;
+	bottom:0;
+		
+}
+#msg
+{
+	position: fixed;
+	bottom:0;
+	right: 11%;
+	width: 60%;
+
+	height: 6%;
+}
+
+#send
+{
+	width: 10%;
+	position: fixed;
+	right: 0;
+	bottom:3.5%;
+	
+	padding: 0px 2px;
+
+}
+#sendlocation
+{
+	width: 10%;
+	position: fixed;
+	right: 0;
+	padding: 0px 2px;
+	bottom: 0;
+}
+#main,#chatscreen
+{
+	
+	position: fixed;
+	left:27%;
+	text-align: left;
+	
+}
+#type
+{
+	text-align: left;
+	font-style: italic;
+	position: fixed;
+	left:27%;
+	bottom: 5%;
+}
+
+#time
+{
+	font-style: italic;
+	text-align: right;
+}
+#chatscreen strong
+{
+	color: red;	
+}
+#displaymsg i
+{
+	text-align: right;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+}
+#entrypage
+{
+	margin-left: 165px;
+	float: right;
+
+}
+
+#leave
+{
+	position: fixed;
+	left:0;
+	bottom: 0;
+	width: 25%;
+	font-style: italic;
+	height: 3%;
+}
+#leave:hover
+{
+	background-color: white;
+}
